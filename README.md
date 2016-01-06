@@ -30,7 +30,7 @@ Result :
 
 Comment : 
 - This script is clever, all cases have been thought for U :) 
-- If you got an inferior version of powershell V3.0  (Which I guess not) you don't need to use : function-export.ps1. (But anyway it will be ignore)
+- If you got an superior version than powershell V2.0  (Which I guess yes) you don't need to use : function-export.ps1. (But anyway it will be ignore)
     - > Why : Load the function "-append" from command  'export-csv' is not available in powershell v2.0
 - In the output file you can as well set and alias for renaming the group  e.g VTOMPROD_Consultation -> Consult
 
