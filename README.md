@@ -12,15 +12,16 @@ It simply extract users from a distribution group, and then later on shows the d
 
 Prerequisite : 
 - Active directory 
-- Computer within a domain active directory 
+- Computer within a domain active directory (which will be executed the script)
 - Powershell V2.0 minimum
-- A brain and a keyboard
+- A brain and a keyboard :)
  
 
 Manual : 
 - It's quite simple (I like simplicity) you just need to set the var "$Currentdir" where is currently located the script.
-- Set in a raw format the distribution group impacted inside the file : config.ini
+- Set in a raw format the distribution group targeted inside the file : config.ini
 - Execute the script : ADExtractUsers_DistributionGroup.ps1
+- Enjoy ! 
 
 Result : 
 - Create a dir : extract_csv  
@@ -30,8 +31,8 @@ Result :
 
 Comment : 
 - This script is clever, all cases have been thought for U :) 
-- If you got an superior version than powershell V2.0  (Which I guess yes) you don't need to use : function-export.ps1. (But anyway it will be ignore)
-    - > Why : Load the function "-append" from command  'export-csv' is not available in powershell v2.0
+- If you got a superior version than powershell V2.0  (Which I guess yes) you don't need to use : function-export.ps1. (But anyway it will be ignore in this case)
+    - Why : Load the function "-append" from command  'export-csv' is not available in powershell v2.0
 - In the output file you can as well set and alias for renaming the group  e.g VTOMPROD_Consultation -> Consult
 
 Enjoy. 
